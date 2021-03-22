@@ -4,5 +4,6 @@ Disallow:
 User-agent: *
 Disallow: /fullscreen.html
 Disallow: /offline.html
+Disallow: /beta.html
 
 Sitemap: https://spoilers.tn.it/sitemap.xml
