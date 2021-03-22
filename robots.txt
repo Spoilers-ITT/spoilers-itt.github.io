@@ -1,2 +1,8 @@
-User-Agent: *
-Allow: /
+User-agent: *
+Disallow: 
+
+User-agent: *
+Disallow: /fullscreen.html
+Disallow: /offline.html
+
+Sitemap: https://spoilers.tn.it/sitemap.xml
