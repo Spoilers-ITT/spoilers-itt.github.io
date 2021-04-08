@@ -1,0 +1,18 @@
+version: "3.2"
+services:
+    Spoilers-Website:
+        image: spoilerstn/spoilerswebsite
+        container_name: Sprinters-Api-DB
+        restart: unless-stopped
+        ports:
+            - 80:80
+        networks:
+            vpcbr:
+              ipv4_address: 10.0.0.2
+networks:
+    vpcbr:
+        driver: bridge
+        ipam:
+            config:
+                - subnet: 10.0.0.0/29
+                  gateway: 10.0.0.1
