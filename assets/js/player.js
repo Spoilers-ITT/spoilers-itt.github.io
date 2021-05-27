@@ -48,22 +48,10 @@ let curr_track = document.createElement('audio');
 
 // Define the tracks that have to be played
 let track_list = [{
-        name: "5G: Pericoloso o innovativo?",
+        name: "Innovazione industriale",
         desc: "",
         active: true,
-        path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/WFMU/Broke_For_Free/Directionless_EP/Broke_For_Free_-_01_-_Night_Owl.mp3"
-    },
-    {
-        name: "IoT: L'internet delle cose",
-        desc: "",
-        active: true,
-        path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
-    },
-    {
-        name: "Informatica Aziendale: cos'è?",
-        desc: "",
-        active: true,
-        path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/ccCommunity/Chad_Crouch/Arps/Chad_Crouch_-_Shipping_Lanes.mp3"
+        path: "first.mp3"
     },
 ];
 
