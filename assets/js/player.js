@@ -73,7 +73,7 @@ function loadTrack(track_index) {
     curr_track.load();
 
     // Update details of the track
-    document.title = track_list[track_index].name + " (Player di Spoilers)";
+    document.title = track_list[track_index].name + " (OpenVoice Streaming)";
     track_name.textContent = track_list[track_index].name;
     now_playing.textContent = "Puntata " + (track_index + 1) + " di " + track_list.length;
 
